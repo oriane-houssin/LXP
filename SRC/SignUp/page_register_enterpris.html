@@ -1,0 +1,111 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title> stu'work Website</title>
+        <link rel = "stylesheet" href = "styles_sign_ups.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    </head> 
+        <body>
+            <div class="headers">
+                <nav>
+                    <img src="Ew-logo-modified.png" class="logo">
+                    <ul class="nav-links">
+                        <li> <a href="google.com" target="_blank"> Mission</a></li>
+                        <li> <a href="google.com" target="_blank"> Who are we</a></li>
+                        <li> <a href="google.com" target="_blank">Informations</a></li>
+                        <li class="btn">
+                            <a href="google.com" target="_blank">Sign-in</a> 
+                        </li>
+                        <!--Can't put Contact.png-->
+                        <li class="btn1">
+                            <a href="google.com" target="_blank"></a>
+                        </li>
+                    </ul>     
+                </nav>
+              </div>
+            <header>
+                <div class="H">
+                <div class="titel">
+                    <h1>Stu'Work</h1>
+                </div>
+                <div class="zone">
+                    <h2> enterpris</h2>
+                </div>
+                <div class="sous_titre">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>           
+            </header>
+            <form action="traitement.php" method="post">
+            <div class="signup">   
+                <div class="signup-agile1">
+                    <div  class="form-control"> 
+                        <label class="header"> enterpris Profile Picture: </label>
+                        <input id="image" type="file" name="profile_photo" placeholder="Photo" required="" capture>
+                    </div>
+                    <div class="form-control">
+                        <label class="header" for="user_first_name"> first Name : </label>                            
+                        <input type="text" id="first_name" name="user_first_name"><br>
+                    </div>
+                    <div class="form-control">
+                        <label class="header" for="user_laste_name"> laste Name : </label>
+                        <input type="text" id="laste_name" name="user_laste_name"><br>
+                    </div>
+                    <div class="form-control">
+                        <label class="header" for="user_shool_name"> name of enterpris: </label>
+                        <input type="text" id="school" name="user_shool_name"><br>
+                    </div>
+                    <div class="form-control">
+                        <label class="header" for="user_age"> age of enterpris</label>
+                        <input type="number" id="age" name="user_age"><br>
+                    </div>
+                    <div>
+                        <label class="header" for="mail">e-mail of enterpris&nbsp;:</label>
+                        <input type="email" id="mail" name="user_mail">
+                    </div>
+                    <div class="form-control">
+                        <label class="header" for="phone number"> phone number :</label>
+                        <input type="tel" id="phone_number" name="user_phone number">
+                    </div>
+                    <div class="form-control">
+                        <p>
+                        <label class="header" for="pays"> enterprise dommaine ? </label>
+                        <select name="domaine" id="domaine">
+                        <option value="infomatique"> informatique </option>
+                        <option value="desinger"> desinger </option>
+                        <option value="pictuer"> picture </option>
+                        <option value="marketing"> marketing </option>
+                        <option value="management"> management </option>
+                        <option value="litérature"> literature </option>
+                         <option value="psychologie"> psychologie </option>
+                        <option value="histoire"> histoire </option>
+                        </select>
+                        </p>
+                    </div>
+                    <div class="form-control">
+                        <p>
+                        <label class="header" for="pays">county enterpris ?</label>
+                        <select name="année" id="pays">
+                        <option value="france"> france </option>
+                        <option value="espagne"> Espagne </option>
+                        <option value="italie"> Italie </option>
+                        <option value="royaume-uni"> Royaume-Uni </option>
+                        <option value="suice"> suice </option>
+                        <option value="irlande"> irlande </option>
+                        <option value="almagne"> almagne </option>
+                        </select>
+                        </p>   
+                        </div>
+                        
+                    </div>
+                    <input type="submit" class="register" value="Register">
+                </div>
+            </form>
+            <div class="lineaire-simple"></div>
+        </body>
+</html>
