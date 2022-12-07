@@ -1,0 +1,234 @@
+body{
+    font-family: "Bebas Neue";
+    margin: unset;
+}
+h2{
+    font-size: 50px;
+}
+a{
+    text-decoration: none;
+}
+
+/*STUDENT INFORMATION SECTION*/
+.student_informations_section{
+    background-color: #7ed957;
+    color: aliceblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 50px;
+    margin: 20px;
+    align-items: center;
+}
+img.profil_picture{
+    width: 200px;
+    padding-left: 50px;
+}
+li{
+    padding-bottom: 5px;
+}
+h3{
+    font-size: 38px;
+    margin: unset;
+}
+
+/*STUDENT SALE SECTION*/
+.student_sale_section{
+    margin: 50px;
+}
+h2.your_skills_title{
+    background-color: #7ed957;
+    border-radius: 30px;
+    margin-top: 100px;
+    font-size: 50px;
+    color: aliceblue;
+    width: fit-content;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.skills{
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+}
+.skills_name{
+    width: fit-content;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.skills_name h3{
+    padding-bottom: 10px;
+}
+.skills_prog{
+    padding-top: 25px;
+}
+.skill_prog{
+    width:670px;
+    background-color: darkgray;
+    padding: 3px;
+    border-radius: 20px;
+    margin-bottom: 28px;
+    text-align: center;
+}
+.skill_perc_1{
+    width: 100%;
+    font-size: 20px;
+    background-color: #57dcf2;
+    border-radius: 20px;
+    color: aliceblue;
+}
+.skill_perc_2{
+    width: 70%;
+    font-size: 20px;
+    background-color: #57dcf2;
+    border-radius: 20px;
+    color: aliceblue;
+}
+.skill_perc_3{
+    width: 90%;
+    font-size: 20px;
+    background-color: #57dcf2;
+    border-radius: 20px;
+    color: aliceblue;
+}
+h2.CV{
+    background-color: #7ed957;
+    color: aliceblue;
+    text-align: center;
+    margin: 120px;
+    border-radius: 30px;
+    transition: ease .8s;
+}
+h2.CV:hover{
+    transform: scale(1.2);
+}
+
+/*APPLICATIONS SECTION*/
+h2.applications_title{
+    background-color: #7ed957;
+    color: aliceblue;
+    text-align: center;
+    border-radius: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: fit-content;
+    margin: 50px;
+    transition: ease .8s;
+}
+h2.applications_title:hover{
+    transform: scale(1.2);
+}
+.applications_preview{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    overflow: scroll;
+}
+img.application_preview{
+    background-color: #57dcf2;
+    border-radius: 30px;
+    padding: 10px;
+    width: 270px;
+    height: 270px;
+    margin: 30px;
+    transition: ease .8s;
+}
+img.application_preview:hover{
+    transform: scale(1.1);
+}
+
+/*ANSWERS SECTION*/
+h2.answers_title{
+    background-color: #7ed957;
+    color: aliceblue;
+    text-align: center;
+    border-radius: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: fit-content;
+    margin: 50px;
+    transition: ease .8s;
+}
+h2.answers_title:hover{
+    transform: scale(1.2);
+}
+.answers_preview{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 70px;
+    margin-left: 60px;
+}
+.answer_preview{
+    background-color: darkgray;
+    width: 200px;
+    height: 200px;
+    transition: ease .8s;
+}
+.answer_preview:hover{
+    transform: scale(1.1);
+}
+h4.company_name{
+    font-size: 30px;
+    padding-top: 15px;
+    padding-left: 20px;
+    margin: unset;
+}
+p{
+    font-size: 17px;
+    margin-top: 15px;
+    padding: 0px 20px 20px 20px;
+}
+
+/*FOOTER*/
+.Footer{
+    background-color: #2c4f40;
+    color: aliceblue;
+    display: grid;
+    grid-template-columns: 1fr 0.75fr 0.75fr;
+    text-align: center;
+    height: 300px;
+}
+.Footer p{
+    font-size: 15px;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+p.phone{
+    width: 265px;
+}
+p.mail{
+    width: 275px;
+}
+img.mail_img{
+    padding-top: 4px;
+}
+p.linkedin{
+    width: 301px;
+}
+.Footer_case_1{
+    font-family: "Bebas Neue";
+    font-size: 85px;
+    height: fit-content;
+    padding-top: 10px;
+}
+.Footer_h2{
+    font-family: "Bebas Neue";
+    font-size: 40px;
+}
+img.Footer_img{
+    width: 20px;
+    float: left;
+    margin-left: 80px;
+}
+img.mail_img{
+    padding-top: 5px;
+}
+.Footer a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 15px;
+    font-family: 'poppins', sans-serif;
+}
+.Footer_case_3 li{
+    padding-bottom: 15px;
+}
+ul{
+    list-style: none;
+}

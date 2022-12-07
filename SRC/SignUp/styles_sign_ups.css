@@ -4,20 +4,22 @@
 	font-family: "poppins", sans-serif;
     box-sizing: border-box;
 }
+
 .headers{
-    background-color: #57dcf2;
-    height: 10vh;
+    /*background-color: #7ed957;*/
+    height: 12vh;
     width: 100%;
     padding: 0 8%;
     position: relative;
 }
+
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .logo{
-    width: 85px;
+    size: 130px;
 }
 .nav-links{
     padding: 28px 0;
@@ -34,7 +36,7 @@ nav{
 }
 .nav-links li a::after{
     content: '';
-    background:#7ed957;
+    background:#57dcf2;
     width: 0;
     height: 2px;
     position: absolute;
@@ -46,14 +48,16 @@ nav{
 .nav-links li a:hover::after{
     width: 100%;
 }
+
 body{
-    background: linear-gradient(#57dcf2 , #7ed957);
+    background: linear-gradient(#7ed957 , #57dcf2);
    
 }
+
    .H{
-        /*background-color: #57dcf2;*/
+        /*background-color: #7ed957;*/
         display: grid;
-        height: 330.8px ;
+        height: 200.8px ;
         width: 100%;
     }
     .sous_titre{
@@ -71,15 +75,13 @@ body{
     }
  
     .titel{
-        margin-top: 15px;
+        margin-top: 17px;
         margin-left: 35px;
         font-family: "Bebas Neue";
         font-size: 50px;
-        color: #f7f7f7;;
+        color: #f7f7f7;
     }
-    .signup{
-    display: grid;
-
+    .signup {
     width: 50%;
     margin: 70px 8% 50%;
     padding: 0;
@@ -91,7 +93,6 @@ body{
         float:center;
         display: grid;
         grid-template-columns: 720px 720px;
-        
         }
     .signup .signup-agile1 .form-control {
     margin-bottom: 20px;
