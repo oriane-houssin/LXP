@@ -3,13 +3,14 @@
     padding: 0;
 	font-family: "poppins", sans-serif;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
-.headers{
-    background-color: #57dcf2;
-    height: 10vh;
-    width: 100%;
+header{
     padding: 0 8%;
-    position: relative;
+    background: transparent;
+    width: 100%;
+    height: fit-content;
+    background-color: transparent;
 }
 nav{
     display: flex;
@@ -17,10 +18,14 @@ nav{
     justify-content: space-between;
 }
 .logo{
+    margin-left: -30px;
     width: 85px;
+    height : 100%;  
 }
 .nav-links{
     padding: 28px 0;
+    margin-top: 25px;
+    border-radius: 8px;
 }
 .nav-links li{
     display: inline-block;
@@ -34,17 +39,28 @@ nav{
 }
 .nav-links li a::after{
     content: '';
-    background:#7ed957;
+    background:blue;
     width: 0;
     height: 2px;
     position: absolute;
     bottom: 0;
     left: 0;
-    transition: width 0.5s;
-
+    transition: width 0.7s;
 }
 .nav-links li a:hover::after{
     width: 100%;
+}
+.btn{
+    background: #7ed957;
+    color: black;
+    padding: 5px 30px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.contact{
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
 }
 body{
     background: linear-gradient(#57dcf2 , #7ed957);

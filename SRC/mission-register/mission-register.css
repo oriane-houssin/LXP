@@ -91,10 +91,11 @@ h2{
 }
 a.detail {
     padding: 10px 30px;
-    background: #34393E;
+    background: #3719e6ce;
     color: white;
     border-radius: 11px;
     border:none;
+    width: 60px;
     
 }
 .bouton3{
