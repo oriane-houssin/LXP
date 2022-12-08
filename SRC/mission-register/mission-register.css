@@ -60,6 +60,11 @@ body{
     border-radius: 3px;
     cursor: pointer;
 }
+.contact{
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+}
 .banner-area{
     height: 530px;
     top: 100px;
