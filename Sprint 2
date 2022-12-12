@@ -39,6 +39,9 @@ images in mouvement :
 }
 3/ 
 ( do it later)
+2. We redisgned the architecture of our project, firstly with our files, we reorganised them in two main folders, DATA, where we put all of the images, and SRC, where we put all our HTML and CSS files. Within the SRC folder, we created others, to make it easier to find our files, by making one per page. However, after being told that it wasn't the best way to do it, we might change that bit.
+    Regarding the HTML and CSS files themselves, we removed all of the lines that were obsolete in our program, to make it smaller and cleaner. We also wrote comments, to make it easier to know where you are in the code.
+3. For the design of our website, firstly, we chose the colors green white and blue, because white and blue are colors regularly found in job searching websites, and green is often found on educational websites, as well as those regarding the student lives. Since our website is linked to both of those topics, we thus chose those colors. About the choices of placements, shapes, content and animations, we tried to make a moder website, without attacking our users with too much informations on the page. We tried to make smooth animations, to make the page livelier and nice looking.
 
 4/
 (flavien)    We worked a lot using whatsApp to give each other instructions and advice. Then I asked for help from Oriane and Valentin because I have more difficulties than them on this project. 
@@ -50,11 +53,17 @@ I think what should be improved is to be more specific about everyone's requests
 I wouldn't be so quick on the project, we had barely 20 minutes of discussion to establish the project of stu'work.
 
 (valentin)
-1. the gold of group work we focus mainly on the debug of our code to have a clean code, which is connected correctly. alongside his we share the tasks according to the progress of each and the list of evolution of the site 
+1. the gold of group work we focus mainly on the debug of our code to have a clean code, which is connected correctly. alongside this we share the tasks according to the progress of each and the list of evolution of the site 
 
 2. for the felt part of the work. I felt good during the entire project of the lack of regularity at certain times due to the consequence of living in a shared apartment. my favorite task and the mission part which pleases me the most. what and feelings in the group we encountered lack of organization and some conflict but we were able to catch up on our motivation at work 
 
 3. I think about what we could have done, and moreover work on our project's template. so that it is clearer for the whole group and that we have a broader opinion of what our project should be. besides that, we could have better worked on the organization of our work so that we don't expect each other 
 
 4. if I had to do it again I would not take delays on certain renderings to avoid conflicts
+
+(Oriane)
+1. We mainly communicated on whatsapp and in class about what we had to do for our project. Overall, we helped each over, and even though we don't have the same pace of work, we still made it at the end, our work complemented the work of the others, and when facing diffivulties, we tried our best to help eachother.
+2. During the project I felt a bit stressed at times, but then relieved when we were done. I also enjoyed it because I like coding and learning, which are two things that I did during this project.
+3. We could improve our communication and time management skills, but we still managed it in the end.
+4. If I had to start over, I would try and find more efficient ways to communicate, in order to avoid misunderstandings.
 
