@@ -1,0 +1,60 @@
+Sprint 2
+
+
+1/ Tasks updated : 
+° We have finished the tasks we assigned to ourselves during Sprint 1. This means that the header/home page/footer were finished, then we started the other web pages.
+
+° Work organization :
+We worked a lot on this second sprint, it shows in the number of pages that the group did. We proceeded in the same way for the distribution of the work. This means that everyone chooses what they want to do.
+
+° Difficulties encountered :
+The biggest problem we had was the github application, we couldn't edit and push our codes on github with the command terminal.
+Thanks to videos on the internet and the help of our speaker we were able to solve the major problem of this sprint.
+
+2/
+° Changes text :
+
+.nav-links li a::after{
+    content: '';
+    background:blue;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.7s;
+}
+
+images in mouvement :
+.Company_title {
+   background-color: #f7f7f7;
+   color: #7ed957;
+   margin-left: 290px;
+   margin-top: 80px;
+   width: fit-content;
+   border-radius: 30px;
+   padding-left: 5%;
+   padding-right: 5%;
+   transition: ease .8s;
+}
+3/ 
+( do it later)
+
+4/
+(flavien)    We worked a lot using whatsApp to give each other instructions and advice. Then I asked for help from Oriane and Valentin because I have more difficulties than them on this project. 
+
+I felt unproductive at times because I was moving slower than my group. I apologized several times to my group for my slow pace, but I still wanted to do good things and in the end they told me they were not disappointed.
+
+I think what should be improved is to be more specific about everyone's requests for the website.
+
+I wouldn't be so quick on the project, we had barely 20 minutes of discussion to establish the project of stu'work.
+
+(valentin)
+1. the gold of group work we focus mainly on the debug of our code to have a clean code, which is connected correctly. alongside his we share the tasks according to the progress of each and the list of evolution of the site 
+
+2. for the felt part of the work. I felt good during the entire project of the lack of regularity at certain times due to the consequence of living in a shared apartment. my favorite task and the mission part which pleases me the most. what and feelings in the group we encountered lack of organization and some conflict but we were able to catch up on our motivation at work 
+
+3. I think about what we could have done, and moreover work on our project's template. so that it is clearer for the whole group and that we have a broader opinion of what our project should be. besides that, we could have better worked on the organization of our work so that we don't expect each other 
+
+4. if I had to do it again I would not take delays on certain renderings to avoid conflicts
+
