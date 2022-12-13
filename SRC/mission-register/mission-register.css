@@ -204,3 +204,6 @@ ul{
 li{
     padding-bottom: 15px;
 }
+.txt:hover{
+    text-decoration: underline;
+}

@@ -69,109 +69,107 @@ body{
    
 }
 
-   .H{
-        /*background-color: #7ed957;*/
-        display: grid;
-        height: 200.8px ;
-        width: 100%;
-    }
-    .sous_titre{
-        margin-top: -15px;
-        margin-left: 350px;
-        font-family: "Bebas Neue";
-        font-size: 20px;
-        margin-top: 0%;
-        color: #f7f7f7;
-    }
-    .zone{
-        margin-left: 1030px;
-        font-size: 25px;
-        color: #282828eb;
-    }
- 
-    .titel{
-        margin-top: 17px;
-        margin-left: 35px;
-        font-family: "Bebas Neue";
-        font-size: 50px;
-        color: #f7f7f7;
-    }
-    .signup {
-    width: 50%;
-    margin: 70px 8% 50%;
-    padding: 0;
-    display: table;
-    position: relative;
-    }
-    .signup-agile1{
-        width:100%;
-        float:center;
-        display: grid;
-        grid-template-columns: 720px 720px;
-        }
-    .signup .signup-agile1 .form-control {
-    margin-bottom: 20px;
-    }
-    label.header {
-        font-size: 16px;
-        font-weight: 500;
-        width: 215px;
-        color: grey;
-        margin-right:10px;
-        text-align:justify;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-        display: inline-block;
-        font-family: 'Nunito', sans-serif;
-    }
-    input#image,input#first_name,input#laste_name,input#age,input#school,select#domaine,select#pays,select#année,input#mail,input#phone_number{
-        padding:0 40px;
-        width:40%;
-        height:55px;
-        border: 1px solid #dadada;
-        color: grey;
-        text-align:justify;
-        outline: none;
-        letter-spacing: 1px;
-        font-size: 16px;
-        font-weight:normal;
-        font-family: 'Muli', sans-serif;
-        border-radius:30px;
-        -webkit-border-radius:30px;
-        -moz-border-radius:30px;
-        -o-border-radius:30px;
-        -ms-border-radius:30px; 
-        background-color:#f5f8fa;
-        border:1px solid #dadada;
-    }
-    input#phone_number{
-        margin-top: 20px;
-    }
-   
-    .register{
-    background-color: lightgreen;
-    width: 35%;
-    height: 55px;
-    border: none;
-    margin-left: 25%;
-    cursor: pointer;
-    color: #fff;
-    outline: none;
+.H{
+     /*background-color: #7ed957;*/
+     display: grid;
+     height: 200.8px ;
+     width: 100%;
+}
+.sous_titre{
+    margin-top: -15px;
+    margin-left: 350px;
+    font-family: "Bebas Neue";
     font-size: 20px;
-    font-weight: normal;
-    text-transform: uppercase;
-    transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    border-radius: 30px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    -o-border-radius: 30px;
-    -ms-border-radius: 30px;
-    font-family: 'Muli', sans-serif;
-    }   
-    .register:hover {
-    background-color:#36b051;
-    color:#fff;
+    margin-top: 0%;
+    color: #f7f7f7;
+}
+.zone{
+    margin-left: 1030px;
+    font-size: 25px;
+    color: #282828eb;
+}
+.titel{
+    margin-top: 17px;
+    margin-left: 35px;
+    font-family: "Bebas Neue";
+    font-size: 50px;
+    color: #f7f7f7;
+}
+.signup {
+width: 50%;
+height: 760px;
+padding: 0;
+display: table;
+position: relative;
+}
+.signup-agile1{
+    width:100%;
+    float:center;
+    display: grid;
+    grid-template-columns: 720px 720px;
     }
+.signup .signup-agile1 .form-control {
+    margin-bottom: 20px;
+}
+label.header {
+    font-size: 16px;
+    font-weight: 500;
+    width: 215px;
+    color: grey;
+    margin-right:10px;
+    text-align:justify;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: inline-block;
+    font-family: 'Nunito', sans-serif;
+}
+input#image,input#first_name,input#laste_name,input#age,input#school,select#domaine,select#pays,select#année,input#mail,input#phone_number{
+    padding:0 40px;
+    width:40%;
+    height:55px;
+    border: 1px solid #dadada;
+    color: grey;
+    text-align:justify;
+    outline: none;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight:normal;
+    font-family: 'Muli', sans-serif;
+    border-radius:30px;
+    -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    -o-border-radius:30px;
+    -ms-border-radius:30px; 
+    background-color:#f5f8fa;
+    border:1px solid #dadada;
+}
+input#phone_number{
+    margin-top: 20px;
+}
+.register{
+background-color: lightgreen;
+width: 35%;
+height: 55px;
+border: none;
+margin-left: 32.5%;
+cursor: pointer;
+color: #fff;
+outline: none;
+font-size: 20px;
+font-weight: normal;
+text-transform: uppercase;
+transition: all 0.5s ease-in-out;
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+border-radius: 30px;
+-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+-o-border-radius: 30px;
+-ms-border-radius: 30px;
+font-family: 'Muli', sans-serif;
+}   
+.register:hover {
+background-color:#36b051;
+color:#fff;
+}
